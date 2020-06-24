@@ -12,6 +12,10 @@ class FenController extends Controller
         $data = DB::table('fen')->where('fen_shan', '=','1')->paginate(3);
         return view('hou.fen_zhan',['data'=>$data]);
     }
+    public function fens_zhan(){
+       // $data = DB::table('fen')->where('fen_shan', '=','1')->paginate(3);
+        return view('hou.fens_zhan');
+    }
     public function fen_adds(Request $request){
         $ming = $request->get('ming');
         $xian = $request->get('xian');
@@ -66,5 +70,19 @@ class FenController extends Controller
         }
         json_encode($ta);
         return $ta;
+    }
+    public function fens_tu(Request $request){
+        $fileinfo = $_FILES['Filedata'];
+        $tmpName = $fileinfo['tmp_name'];
+        $ext = explode(".",$fileinfo['name'])[1];
+        $newFileName = md5(uniqid()).".".$ext;
+        $newFilePath = "./puloads/".Date("Y/m/d/",time());
+        if (!is_dir($newFilePath)){
+            mkdir($newFilePath,0777,true);
+        }
+        $newFilePath = $newFilePath.$newFileName;
+        move_uploaded_file($tmpName,$newFilePath);
+        $newFilePath = ltrim($newFilePath,".");
+        echo $newFilePath;
     }
 }

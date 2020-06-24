@@ -2,164 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1add1ef8-6fb6-43df-89bc-a0582273887f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HouController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/QianController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/dateIco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/manhuaDate.1.0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/page1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/actionIMG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/banimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin111.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coin222.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coinL1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/coinL2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/con01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/headLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/indexBanner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logBanner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logLOGO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logName.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logPwd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logYZM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/no.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/ok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/shanchu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/topic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/update.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/userPICS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/inc/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/inc/foot.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/inc/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/inc/head.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/inc/left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/inc/left.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/ajaxfileupload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.mousewheel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/manhuaDate.1.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/public.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hou/banner.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hou/banner_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hou/banner_pu.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hou/fen_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hou/fen_pu.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hou/fen_zhan.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hou/hou_index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hou/left.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/hou/fens_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/hou/fens_zhan.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FenController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FenController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/hou/left.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/hou/left.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,11 +20,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="456">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+              <folding>
+                <element signature="e#46#428#0#PHP" />
+                <element signature="e#446#489#1#PHP" />
+                <element signature="e#508#551#1#PHP" />
+                <element signature="e#579#623#1#PHP" />
+                <element signature="e#664#714#1#PHP" />
+                <element signature="e#734#781#1#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../视频/upload.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/hou/left.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="94" column="109" selection-start-line="94" selection-start-column="109" selection-end-line="94" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/hou/fens_zhan.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -184,12 +67,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FenController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+            <state relative-caret-position="589">
+              <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
+                <element signature="e#157#236#0#PHP" />
                 <element signature="e#197#238#0#PHP" />
                 <element signature="e#812#868#0#PHP" />
+                <element signature="e#1201#1418#0#PHP" />
+                <element signature="e#1408#1892#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -199,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HouController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+              <caret line="55" column="5" selection-start-line="51" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
                 <element signature="e#393#976#0#PHP" />
@@ -248,10 +134,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/hou/banner.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/hou/fens_add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2302">
-              <caret line="152" column="6" lean-forward="true" selection-start-line="152" selection-start-column="6" selection-end-line="153" selection-end-column="29" />
+            <state relative-caret-position="447">
+              <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -276,12 +162,15 @@
         <option value="$PROJECT_DIR$/resources/views/hou/banner_pu.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HouController.php" />
         <option value="$PROJECT_DIR$/resources/views/hou/banner.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/hou/left.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/hou/fen_add.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/hou/fen_zhan.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FenController.php" />
         <option value="$PROJECT_DIR$/resources/views/hou/fen_pu.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/hou/left.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/hou/fens_zhan.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FenController.php" />
+        <option value="$PROJECT_DIR$/resources/views/hou/fens_add.blade.php" />
+        <option value="$PROJECT_DIR$/../视频/upload.blade.php" />
       </list>
     </option>
   </component>
@@ -388,8 +277,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="675" />
-    <option name="y" value="230" />
+    <option name="x" value="847" />
+    <option name="y" value="87" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -424,6 +313,24 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiangmu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiangmu" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiangmu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiangmu" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiangmu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiangmu" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="uploadify" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiangmu" type="b2602c69:ProjectViewProjectNode" />
@@ -492,18 +399,18 @@
       <option name="presentableId" value="Default" />
       <updated>1592806863193</updated>
       <workItem from="1592806864943" duration="934000" />
-      <workItem from="1592807802348" duration="36042000" />
+      <workItem from="1592807802348" duration="40241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36976000" />
+    <option name="totallyTimeSpent" value="41175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1621984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -639,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/hou/left.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="94" column="114" selection-start-line="94" selection-start-column="114" selection-end-line="94" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/hou/banner_add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
@@ -653,16 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/hou/fens_add.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/hou/fens_zhan.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/hou/banner.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2302">
-          <caret line="152" column="6" lean-forward="true" selection-start-line="152" selection-start-column="6" selection-end-line="153" selection-end-column="29" />
+          <caret line="152" column="6" selection-start-line="152" selection-start-column="6" selection-end-line="153" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -688,10 +582,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/hou/fen_pu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding>
+            <element signature="e#46#428#0#PHP" />
+            <element signature="e#446#489#1#PHP" />
+            <element signature="e#508#551#1#PHP" />
+            <element signature="e#579#623#1#PHP" />
+            <element signature="e#664#714#1#PHP" />
+            <element signature="e#734#781#1#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FenController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <element signature="e#157#236#0#PHP" />
+            <element signature="e#197#238#0#PHP" />
+            <element signature="e#812#868#0#PHP" />
+            <element signature="e#1201#1418#0#PHP" />
+            <element signature="e#1408#1892#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HouController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+          <caret line="55" column="5" selection-start-line="51" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
             <element signature="e#393#976#0#PHP" />
@@ -703,29 +634,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/hou/fen_pu.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/hou/fens_zhan.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        <state relative-caret-position="325">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FenController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/hou/left.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-            <element signature="e#197#238#0#PHP" />
-            <element signature="e#812#868#0#PHP" />
-          </folding>
+        <state relative-caret-position="552">
+          <caret line="94" column="109" selection-start-line="94" selection-start-column="109" selection-end-line="94" selection-end-column="109" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/hou/fens_add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="447">
+          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../视频/upload.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>

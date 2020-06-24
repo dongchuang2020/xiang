@@ -25,6 +25,9 @@ Route::any('/banner_add', function () {
 Route::any('/fen_add', function () {
     return view('hou.fen_add');
 });
+Route::any('/fens_add', function () {
+    return view('hou.fens_add');
+});
 Route::any('/hou_index',"HouController@hou_index");
 Route::any('/banner',"HouController@banner");
 Route::any('/banner_in',"HouController@banner_in");
@@ -33,7 +36,9 @@ Route::any('/banner_up',"HouController@banner_up");
 Route::any('/banner_ups',"HouController@banner_ups");
 Route::any('/banner_upd',"HouController@banner_upd");
 Route::any('/fen_zhan',"FenController@fen_zhan");
+Route::any('/fens_zhan',"FenController@fens_zhan");
 Route::any('/fen_adds',"FenController@fen_adds");
 Route::any('/fen_da',"FenController@fen_da");
 Route::any('/fen_pu',"FenController@fen_pu");
 Route::any('/fen_pus',"FenController@fen_pus");
+Route::any('/fens_tu',"FenController@fens_tu");
